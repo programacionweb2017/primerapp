@@ -18,7 +18,7 @@ class __TwigTemplate_6275826f69ecfbea9344379774367d4e73f96909c49b3b4e97eab698be7
         // line 1
         echo "
 <h1>Listado de Articulos</h1>
-<table border=\"1\">
+<table border=\"1\" align=\"center\">
     <tr>
         <th>ID</th>
         <th>Titulo</th>
@@ -43,18 +43,15 @@ class __TwigTemplate_6275826f69ecfbea9344379774367d4e73f96909c49b3b4e97eab698be7
             // line 13
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["articulo"]) ? $context["articulo"] : $this->getContext($context, "articulo")), "created"), "html", null, true);
             echo "</td>
+          <td>articulo fati</td>
     </tr>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['articulo'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 16
+        // line 17
         echo "</table>
-    
-    
-    
-
 ";
     }
 
@@ -70,6 +67,6 @@ class __TwigTemplate_6275826f69ecfbea9344379774367d4e73f96909c49b3b4e97eab698be7
 
     public function getDebugInfo()
     {
-        return array (  53 => 16,  44 => 13,  40 => 12,  36 => 11,  33 => 10,  29 => 9,  19 => 1,);
+        return array (  54 => 17,  44 => 13,  40 => 12,  36 => 11,  33 => 10,  29 => 9,  19 => 1,);
     }
 }
